@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>adminpage</title>
+  <title>Admin Add User Page</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -11,8 +11,17 @@
   <link rel="stylesheet" href="css/form-style.css">  
 </head>
 <?php 
+include("db.php");
 if(isset($_POST['submit'])){
-  
+$userName =  $_POST['username'];
+$FatherName =  $_POST['fathername'];
+$Password =  $_POST['password'];
+$Email =  $_POST['email'];
+$Cnic =  $_POST['cnic'];
+$CellNo =  $_POST['cellno'];
+$InsertQuery = "INSERT INTO users_data(username,father_name,user_password,user_email,user_cnic,user_cell_no)
+                VALUES('$userName','$FatherName','$Password','$Email','$Cnic','$CellNo')";
+$Result = mysqli_query($con,$InsertQuery);
 }
 ?>
 <body>
