@@ -8,6 +8,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/form-style.css">  
 </head>
 <body>
   <div class="wrapper">
@@ -45,9 +46,40 @@
     <!-- navbar ended  -->
   </div>
 
-  <h3>add new users</h3>
-  
+  <div class="form-wrapper">
+    <form action="">
+        <div class="middle">
+            <h1>Enter Details Below To add New User</h1>
+    
+            <!--  Fancy inputs  -->
+            <div id="fancy-inputs">
+              <label class="input">
+                <input type="text">
+                <span><span>Username</span></span>
+              </label>
+          
+              <label class="input">
+                <input type="text">
+                <span><span>Password</span></span>
+              </label>
+            </div>
+            
+            <div id="fancy-radio">
+              <input type="radio" name="group" id="questions" class="pull-left" style="display: none;">
+              <label class="radio questions" for="questions">Male</label>
+          
+              <input type="radio" name="group" id="photo" class="pull-left" style="display: none;">
+              <label class="radio photo" for="photo">Female</label>
+            </div>
+            
+            <a href="" class="btn">Sign Up</a>
+        </div> 
+    </form>
+      
+  </div>
 
 
 </body>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src="js/form-index.js"></script>
 </html>
