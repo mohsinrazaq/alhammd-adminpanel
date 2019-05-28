@@ -51,8 +51,8 @@
         <div class="middle">
             <h1>Enter Details Below To add New User</h1>
     
-            <!--  Fancy inputs  -->
             <div id="fancy-inputs">
+
               <label class="input">
                 <input type="text">
                 <span><span>Username</span></span>
@@ -60,19 +60,33 @@
           
               <label class="input">
                 <input type="text">
-                <span><span>Password</span></span>
+                <span><span>Father Name</span></span>
               </label>
+
+              <label class="input">
+                <input type="text">
+                <span><span>Pssword</span></span>
+              </label>
+
+              <label class="input">
+                <input type="text">
+                <span><span>Email</span></span>
+              </label>
+
+              <label class="input">
+                <input type="text">
+                <span><span>CNIC No</span></span>
+              </label>
+
+              <label class="input">
+                <input type="text">
+                <span><span>Cell No</span></span>
+              </label>
+
             </div>
             
-            <div id="fancy-radio">
-              <input type="radio" name="group" id="questions" class="pull-left" style="display: none;">
-              <label class="radio questions" for="questions">Male</label>
-          
-              <input type="radio" name="group" id="photo" class="pull-left" style="display: none;">
-              <label class="radio photo" for="photo">Female</label>
-            </div>
             
-            <a href="" class="btn">Sign Up</a>
+            <a href="" class="btn">Add Data</a>
         </div> 
     </form>
       

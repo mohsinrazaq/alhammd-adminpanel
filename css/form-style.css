@@ -30,8 +30,8 @@ h1 {
 }
 #fancy-inputs label.input {
   float: left;
-  width: 460px;
-  height: 42px;
+  width: 400px;
+  height: 20px;
   margin: 50px 0 0 0;
   position: relative;
   clear: both;
@@ -84,7 +84,7 @@ h1 {
 }
 #fancy-inputs input {
   float: left;
-  width: 460px;
+  width: 400px;
   height: 40px;
   padding: 0 10px;
   border: 0;
@@ -176,7 +176,7 @@ h1 {
 
 .btn {
   float: left;
-  width: 100%;
+  width: 50%;
   height: 50px;
   line-height: 50px;
   margin: 0 0 50px 0;
