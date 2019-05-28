@@ -10,6 +10,11 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/form-style.css">  
 </head>
+<?php 
+if(isset($_POST['submit'])){
+  
+}
+?>
 <body>
   <div class="wrapper">
     <!-- navbar started -->
@@ -47,7 +52,7 @@
   
     <!-- input form started -->
     <div class="form-wrapper">
-      <form action="">
+      <form action="" method="POST">
         <div class="middle">
             <h1>Enter Details Below To add New Member</h1>
     
@@ -86,7 +91,7 @@
             </div>
             
             
-            <a href="" class="btn">Add Data</a>
+            <a href="" class="btn" name="submit">Add Data</a>
         </div> 
       </form>   
     </div>
