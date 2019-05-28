@@ -85,17 +85,17 @@ $Result = mysqli_query($con,$InsertQuery);
 
               <label class="input">
                 <input type="text" name="email">
-                <span><span>Email</span></span>
+                <span><span>Email e.g mohsinrazzaq25@gmail.com</span></span>
               </label>
 
               <label class="input">
                 <input type="text" name="cnic">
-                <span><span>CNIC No</span></span>
+                <span><span>CNIC No e.g 31102-4856729-9</span></span>
               </label>
 
               <label class="input">
                 <input type="text" name="cellno">
-                <span><span>Cell No</span></span>
+                <span><span>Cell No e.g 0333-6336483</span></span>
               </label>
 
             </div>
