@@ -57,11 +57,22 @@
                 <input type="text" disabled>
                 <span><span>Current Username</span></span>
               </label>
+
+              <label class="input">
+                <input type="text" disabled>
+                <span><span>Current Email</span></span>
+              </label>
           
               <label class="input">
                 <input type="text">
                 <span><span>New Name</span></span>
               </label>
+
+              <label class="input">
+                <input type="text">
+                <span><span>New Email</span></span>
+              </label>
+
 
               <label class="input">
                 <input type="text">
