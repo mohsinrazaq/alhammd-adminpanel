@@ -12,14 +12,15 @@
 </head>
 <?php 
 include("db.php");
-if(isset($_POST['submit'])){
+error_reporting(0);
+if(isset($_POST['register'])){
 $userName =  $_POST['username'];
 $FatherName =  $_POST['fathername'];
 $Password =  $_POST['password'];
 $Email =  $_POST['email'];
 $Cnic =  $_POST['cnic'];
 $CellNo =  $_POST['cellno'];
-$InsertQuery = "INSERT INTO users_data(username,father_name,user_password,user_email,user_cnic,user_cell_no)
+$InsertQuery = "INSERT INTO users_data(user_name,father_name,user_password,user_email,user_cnic,user_cell_no)
                 VALUES('$userName','$FatherName','$Password','$Email','$Cnic','$CellNo')";
 $Result = mysqli_query($con,$InsertQuery);
 }
@@ -99,8 +100,8 @@ $Result = mysqli_query($con,$InsertQuery);
 
             </div>
             
-            
-            <a href="" class="btn" name="submit">Add Data</a>
+            <input class="btn" type="submit" name="register" value="ADD DATA">
+          
         </div> 
       </form>   
     </div>
