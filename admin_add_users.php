@@ -49,13 +49,13 @@
   <div class="form-wrapper">
     <form action="">
         <div class="middle">
-            <h1>Enter Details Below To add New User</h1>
+            <h1>Enter Details Below To add New Member</h1>
     
             <div id="fancy-inputs">
 
               <label class="input">
                 <input type="text">
-                <span><span>Username</span></span>
+                <span><span>Member Name</span></span>
               </label>
           
               <label class="input">
