@@ -7,7 +7,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/form-style.css">  
 </head>
 <body>
   <div class="wrapper">
@@ -44,7 +45,43 @@
     </nav>
     <!-- navbar ended  -->
 
-    <h3 class="update-acc">Update Account</h3>
+    
+  <div class="form-wrapper">
+    <form action="">
+        <div class="middle">
+            <h1>Update Account</h1>
+    
+            <div id="fancy-inputs">
+
+              <label class="input">
+                <input type="text" disabled>
+                <span><span>Current Username</span></span>
+              </label>
+          
+              <label class="input">
+                <input type="text">
+                <span><span>New Name</span></span>
+              </label>
+
+              <label class="input">
+                <input type="text">
+                <span><span>Pssword</span></span>
+              </label>
+              
+              
+              <label class="input">
+                <input type="text">
+                <span><span>Confirm Pssword</span></span>
+              </label>
+
+
+            </div>
+            
+            
+            <a href="" class="btn">Update</a>
+        </div> 
+    </form>   
+  </div>
 
   </div>
 
@@ -52,4 +89,6 @@
 
 
 </body>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src="js/form-index.js"></script>
 </html>

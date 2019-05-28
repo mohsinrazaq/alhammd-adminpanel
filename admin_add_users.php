@@ -88,8 +88,7 @@
             
             <a href="" class="btn">Add Data</a>
         </div> 
-    </form>
-      
+    </form>   
   </div>
 
 
