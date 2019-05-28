@@ -29,8 +29,8 @@
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#">Users <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">View Users</a></li>
-                <li><a href="#">Add New Users</a></li>
+                <li><a href="admin_view_users.php">View Users</a></li>
+                <li><a href="admin_add_users.php">Add New Users</a></li>
                 <li><a href="#"></a></li>
               </ul>
             </li>
