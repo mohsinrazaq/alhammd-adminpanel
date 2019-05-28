@@ -24,11 +24,11 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
+            <li class="active"><a href="index.html">Home</a></li>
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#">Users <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="admin_view_users.php">View Users</a></li>
+                <li><a href="admin_view-users.php">View Users</a></li>
                 <li><a href="#">Add New Users</a></li>
                 <li><a href="#"></a></li>
               </ul>
@@ -43,6 +43,8 @@
       </div>
     </nav>
     <!-- navbar ended  -->
+
+      <h3>users data</h3>
   </div>
 
   
