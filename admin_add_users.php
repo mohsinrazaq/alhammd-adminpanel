@@ -44,42 +44,42 @@
       </div>
     </nav>
     <!-- navbar ended  -->
-  </div>
-
-  <div class="form-wrapper">
-    <form action="">
+  
+    <!-- input form started -->
+    <div class="form-wrapper">
+      <form action="">
         <div class="middle">
             <h1>Enter Details Below To add New Member</h1>
     
             <div id="fancy-inputs">
 
               <label class="input">
-                <input type="text">
+                <input type="text" name="username">
                 <span><span>Member Name</span></span>
               </label>
           
               <label class="input">
-                <input type="text">
+                <input type="text" name="fathername">
                 <span><span>Father Name</span></span>
               </label>
 
               <label class="input">
-                <input type="text">
+                <input type="text" name="password">
                 <span><span>Pssword</span></span>
               </label>
 
               <label class="input">
-                <input type="text">
+                <input type="text" name="email">
                 <span><span>Email</span></span>
               </label>
 
               <label class="input">
-                <input type="text">
+                <input type="text" name="cnic">
                 <span><span>CNIC No</span></span>
               </label>
 
               <label class="input">
-                <input type="text">
+                <input type="text" name="cellno">
                 <span><span>Cell No</span></span>
               </label>
 
@@ -88,9 +88,10 @@
             
             <a href="" class="btn">Add Data</a>
         </div> 
-    </form>   
+      </form>   
+    </div>
+    <!-- input form ended -->
   </div>
-
 
 </body>
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
