@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 28, 2019 at 04:57 PM
+-- Generation Time: May 28, 2019 at 11:06 PM
 -- Server version: 10.1.28-MariaDB
 -- PHP Version: 7.1.11
 
@@ -35,6 +35,13 @@ CREATE TABLE `admin` (
   `admin_email` varchar(30) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Dumping data for table `admin`
+--
+
+INSERT INTO `admin` (`admin_id`, `admin_name`, `admin_password`, `admin_email`) VALUES
+(1, 'mohsin razzaq', 'abc123', 'mohsinrazzaq25@gmail.com');
+
 -- --------------------------------------------------------
 
 --
@@ -47,9 +54,16 @@ CREATE TABLE `users_data` (
   `father_name` varchar(20) NOT NULL,
   `user_password` varchar(20) NOT NULL,
   `user_email` varchar(30) NOT NULL,
-  `user_cnic` int(15) NOT NULL,
-  `user_cell_no` int(15) NOT NULL
+  `user_cnic` varchar(15) NOT NULL,
+  `user_cell_no` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `users_data`
+--
+
+INSERT INTO `users_data` (`user_id`, `user_name`, `father_name`, `user_password`, `user_email`, `user_cnic`, `user_cell_no`) VALUES
+(1, 'Mohsin Razzaq', 'Abdul Razzaq', 'abc123', 'mohsinrazzaq25@gmail.com', '31102-4856729-9', '0323-4974645');
 
 --
 -- Indexes for dumped tables
@@ -75,13 +89,13 @@ ALTER TABLE `users_data`
 -- AUTO_INCREMENT for table `admin`
 --
 ALTER TABLE `admin`
-  MODIFY `admin_id` int(10) NOT NULL AUTO_INCREMENT;
+  MODIFY `admin_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `users_data`
 --
 ALTER TABLE `users_data`
-  MODIFY `user_id` int(10) NOT NULL AUTO_INCREMENT;
+  MODIFY `user_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

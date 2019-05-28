@@ -1,3 +1,10 @@
+<?php
+include("db.php");
+if($_SESSION['userId'] == '' )
+{
+	header("location:loginForm-Page.php");
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -37,7 +44,7 @@
             <li><a href="admin_update_account.php">Update Account</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+            <li><a href="logout.php"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
           </ul>
         </div>
       </div>

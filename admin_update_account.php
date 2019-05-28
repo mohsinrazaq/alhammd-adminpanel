@@ -25,7 +25,7 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home</a></li>
+            <li class="active"><a href="admin_page.php">Home</a></li>
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#">Users <span class="caret"></span></a>
               <ul class="dropdown-menu">
@@ -38,7 +38,7 @@
             <li><a href="admin_update_account.php">Update Account</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+            <li><a href="logout.php"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
           </ul>
         </div>
       </div>
