@@ -1,3 +1,10 @@
+<?php
+include("db.php");
+if($_SESSION['userId'] == '' )
+{
+	header("location:loginForm-Page.php");
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
