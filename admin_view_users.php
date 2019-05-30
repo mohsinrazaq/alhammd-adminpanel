@@ -27,20 +27,27 @@ if($_SESSION['userId'] == '' )
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>                        
           </button>
-          <a class="navbar-brand" href="#">AL-Hammd Travles and Tours</a>
+          <a class="navbar-brand" href="admin_page.php">AL-Hammd Travles and Tours</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="admin_page.php">Home</a></li>
+            <li class="active"><a href="#">Home</a></li>
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#">Users <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="admin_view-users.php">View Users</a></li>
+                <li><a href="admin_view_users.php">View Users</a></li>
                 <li><a href="admin_add_users.php">Add New Users</a></li>
                 <li><a href="#"></a></li>
               </ul>
             </li>
-            <li><a href="#">Page 2</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Funds <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="admin_view_users.php">Add Funds</a></li>
+                <li><a href="admin_add_users.php">View Added Funds</a></li>
+                <li><a href="#"></a></li>
+              </ul>
+            </li>
             <li><a href="admin_update_account.php">Update Account</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
