@@ -31,7 +31,7 @@ if($_SESSION['userId'] == '' )
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
+            <li class="active"><a href="admin_page.php">Home</a></li>
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#">Users <span class="caret"></span></a>
               <ul class="dropdown-menu">
