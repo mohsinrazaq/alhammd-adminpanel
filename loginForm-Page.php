@@ -15,6 +15,7 @@ $row = mysqli_fetch_array($res1);
 if($row!= ""){
   $_SESSION['userId'] = $row['admin_id'];
   $_SESSION['username'] = $row['admin_name'];
+  $_SESSION['Email'] = $row['admin_email'];
   header("location:admin_page.php");
 }
 else{

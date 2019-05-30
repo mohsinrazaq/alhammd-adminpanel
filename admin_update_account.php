@@ -52,7 +52,9 @@ if($_SESSION['userId'] == '' )
     </nav>
     <!-- navbar ended  -->
 
-    
+<?php 
+
+?>
   <div class="form-wrapper">
     <form action="">
         <div class="middle">
@@ -62,32 +64,32 @@ if($_SESSION['userId'] == '' )
 
               <label class="input">
                 <input type="text" disabled>
-                <span><span>Current Username</span></span>
+                <span><span>Current Username : <?php echo $_SESSION['username']; ?></span></span>
               </label>
 
               <label class="input">
                 <input type="text" disabled>
-                <span><span>Current Email</span></span>
+                <span><span> Email : <?php echo $_SESSION['Email']; ?></span></span>
               </label>
           
               <label class="input">
-                <input type="text">
+                <input type="text" name="newname">
                 <span><span>New Name</span></span>
               </label>
 
               <label class="input">
-                <input type="text">
+                <input type="text" name="newemail">
                 <span><span>New Email</span></span>
               </label>
 
 
               <label class="input">
-                <input type="text">
+                <input type="text" name="password">
                 <span><span>Pssword</span></span>
               </label>
               
               
-              <label class="input">
+              <label class="input" name="confirmpassword">
                 <input type="text">
                 <span><span>Confirm Pssword</span></span>
               </label>

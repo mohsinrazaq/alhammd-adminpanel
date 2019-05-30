@@ -18,7 +18,6 @@ if($_SESSION['userId'] == '' )
   <link rel="stylesheet" href="css/form-style.css">  
 </head>
 <?php 
-include("db.php");
 error_reporting(0);
 if(isset($_POST['register'])){
 $userName =  $_POST['username'];
