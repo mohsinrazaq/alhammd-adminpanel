@@ -43,8 +43,8 @@ if($_SESSION['userId'] == '' )
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#">Funds <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="admin_view_users.php">Add Funds</a></li>
-                <li><a href="admin_add_users.php">View Added Funds</a></li>
+                <li><a href="">Add Funds</a></li>
+                <li><a href="">View Added Funds</a></li>
                 <li><a href="#"></a></li>
               </ul>
             </li>
