@@ -54,7 +54,10 @@ if($_SESSION['userId'] == '' )
 
 <?php 
 if(isset($_POST[''])){
-  
+  $_POST['newname'];
+  $_POST['newemail'];
+  $_POST['password'];
+  $_POST['confirmpassword'];
 }
 ?>
   <div class="form-wrapper">
