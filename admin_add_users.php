@@ -58,7 +58,7 @@ $Result = mysqli_query($con,$InsertQuery);
               <li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">Funds <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="">Add Funds</a></li>
+                  <li><a href="admin_add_funds.php">Add Funds</a></li>
                   <li><a href="">View Added Funds</a></li>
                   <li><a href="#"></a></li>
                 </ul>
