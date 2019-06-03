@@ -58,7 +58,7 @@ if($_SESSION['userId'] == '' )
     </nav>
     <!-- navbar ended  -->
 
-    <h3>Welcomee to AL-Hammd Travels and Tours Admin Panel <b><?php echo $_SESSION['username']; ?></b> </h3>
+    <h3>Welcome to AL-Hammd Travels and Tours Admin Panel <b><?php echo $_SESSION['username']; ?></b> </h3>
   </div>
 
   
