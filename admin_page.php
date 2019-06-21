@@ -27,7 +27,7 @@ if($_SESSION['userId'] == '' )
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>                        
           </button>
-          <a class="navbar-brand" href="admin_page.php">AL-Hammd Travles and Tours</a>
+          <a class="navbar-brand" href="admin_page.php">AL-Hammd Travles & Tours</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
